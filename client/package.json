@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-router-dom": "^7.1.4",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2"
+  },
+  "module": "es20215",
+    "target": "es20215",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+  "proxy": "http://localhost:3000",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node --esm src/App.tsx",
+    "dev": "nodemon src/App.tsx"
+  }
+}
